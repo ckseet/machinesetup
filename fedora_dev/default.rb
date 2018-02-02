@@ -44,7 +44,11 @@ end
 # Other languages
 package 'gcc'
 package 'gcc-devel'
+package 'glibc'
+package 'glibc-devel'
 package 'R'
+package 'golang'
+package 'groovy'
 
 # Third party
 package 'aws-tools'
@@ -54,10 +58,43 @@ package 'cairo'
 package 'cairo-devel'
 package 'cairo-dock-python3' 
 package 'qt'
+package 'exim'
+package 'exim-mysql'
 
 # Databases /Datastores
 package 'cassandra'
 package 'cassandra-server'
 package 'cassandra-java-driver'
+package 'cassandra-javdoc'
+
+# VM
+package 'docker'
+package 'docker-common'
+package 'docker-devel'
+package 'docker-vim'
+package 'docker-logrotate'
+
+# Tools
+package 'freemind'
+package 'freemind-map'
+package 'freemind-javadoc'
+package 'freemind-minimal'
+package 'freemind-script'
+package 'freemind-help'
+package 'freemind-collaboration-socket'
+package 'freemind-svg'
+package 'gedit'
+package 'gimp'
+package 'graphite2'
+package 'graphite2-devel'
+package 'graphite-web'
+package 'graphite-api'
+package 'graphite-api-doc'
+
+# Google
+package 'google-gson'
+package 'google-gson-javadoc'
+package 'google-java-http-client'
+
 
 
