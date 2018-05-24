@@ -17,4 +17,31 @@ all:
 	sudo dnf install php
 	sudo dnf install python
 	sudo dnf install ruby
-
+	wget https://dev.mysql.com/get/mysql80-community-release-fc27-1.noarch.rpm
+	sudo rpm -ivh mysql80-community-release-fc27-1.noarch.rpm
+	sudo dnf install mysql-community-server
+	sudo dnf install mysql-community-libs
+	sudo dnf install mysql-community-common
+	sudo dnf install mysql-community-client
+	sudo dnf install mysql-community-devel
+#	sudo dnf install mysql-community-embedded
+#	sudo dnf install mysql-community-embedded-devel
+	sudo dnf install mysql-community-test
+	sudo dnf install mysql-shell
+	sudo dnf install mysql-shell-debuginfo
+	sudo dnf install mysql-utilities
+	sudo dnf install mysql-workbench-community
+	sudo dnf install mysql-workbench-community-debuginfo
+	sudo dnf install mysql-router
+	sudo dnf install mysql-router-debuginfo
+	sudo dnf install mysql-router-debugsource
+	sudo dnf install mysql-connector-python
+	sudo dnf install mysql-connector-python-cext
+	sudo dnf install mysql-connector-python-debuginfo
+	sudo dnf install mysql-connector-python3
+	sudo dnf install mysql-connector-python3-cext
+	sudo dnf install mysql-connector-odbc-setup
+	sudo dnf install mysql-connector-odbc-setup-debuginfo
+	sudo dnf install mysql-connector-odbc-debuginfo
+	sudo dnf install mysql-connector-odbc-debugsource
+	sudo dnf install mysql-connector-odbc-test
