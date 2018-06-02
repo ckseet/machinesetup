@@ -15,6 +15,8 @@ all:
 	sudo dnf install perl-DBI
 	sudo dnf install perl-DBD-MySQL
 	sudo dnf install php
+	sudo dnf install php-pdo
+	sudo dnf install php-pdo-dblib
 	sudo dnf install python
 	sudo dnf install ruby
 
