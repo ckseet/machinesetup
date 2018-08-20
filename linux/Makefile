@@ -1,5 +1,5 @@
 all: 
-	@echo "Use Fedora" --assumeyes
+	@echo "Use Fedora 28" 
 fedora: 
 	sudo dnf install vim -y --assumeyes
 	sudo dnf install httpd --assumeyes
@@ -20,7 +20,6 @@ fedora:
 	sudo dnf install php-pdo --assumeyes
 	sudo dnf install php-pdo-dblib --assumeyes
 	sudo dnf install python --assumeyes
-	sudo dnf install pip --assumeyes
 	sudo dnf install ruby --assumeyes
 	wget https://dev.mysql.com/get/mysql80-community-release-fc27-1.noarch.rpm 
 	sudo rpm -ivh mysql80-community-release-fc27-1.noarch.rpm 
@@ -42,12 +41,11 @@ fedora:
 	sudo dnf install mysql-router-debugsource --assumeyes
 	sudo dnf install mysql-connector-python --assumeyes
 	sudo dnf install mysql-connector-python-cext --assumeyes
-	sudo dnf install mysql-connector-python-debuginfo --assumeyes
 	sudo dnf install mysql-connector-python3 --assumeyes
 	sudo dnf install mysql-connector-python3-cext --assumeyes
 	sudo dnf install mysql-connector-odbc-setup --assumeyes
 	sudo dnf install mysql-connector-odbc-setup-debuginfo --assumeyes
 	sudo dnf install mysql-connector-odbc-debuginfo --assumeyes
 	sudo dnf install mysql-connector-odbc-debugsource --assumeyes
-	sudo dnf install mysql-connector-odbc-test --assumeyes
-	sudo pip install awscli --upgrade --user 
+	sudo dnf install mysql-connector-odbc --assumeyes
+	pip install awscli --upgrade --user 
